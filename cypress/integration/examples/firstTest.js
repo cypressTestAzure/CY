@@ -56,8 +56,4 @@ describe('My Test Suite', function () {
         cy.get('span.ant-upload').should('exist');
     });
 
-    it.only('TC-014 Submit button is present', function() {
-        cy.get('.ant-btn').should('exist');
-    });
-
 });
