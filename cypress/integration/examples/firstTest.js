@@ -49,11 +49,15 @@ describe('My Test Suite', function () {
     });
 
     it.only('TC-012 Image label is present', function() {
-        cy.get('title[for=5. Upload an image (optional)]').should('include.text', '5. Upload an image (optional)');
+        cy.get('.ant-col-16').should('include.text', '5. Upload an image (optional)');
     });
 
-    it.only('TC-013 Image field is present', function() {
+    it('TC-013 Image field is present', function() {
         cy.get('span.ant-upload').should('exist');
+    });
+
+    it('TC-014 Submit button is present', function() {
+        cy.get('.ant-btn').should('exist');
     });
 
 });
