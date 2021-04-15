@@ -1,7 +1,7 @@
 describe('My Test Suite', function () {
 
     before("Open page", function () {
-        cy.visit('https://qa-apps.netlify.app/hero/fix');
+        cy.visit('');
     });
 
     it('TC-001 Verify Title of the Page', function() {
