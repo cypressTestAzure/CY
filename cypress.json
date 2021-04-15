@@ -1,3 +1,4 @@
 {
-  "baseUrl": "https://qa-apps.netlify.app/hero/fix"
+  "baseUrl": "https://qa-apps.netlify.app/hero/fix",
+  "integrationFolder": "cypress/integration/mlh"
 }
