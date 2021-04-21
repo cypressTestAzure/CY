@@ -1,7 +1,7 @@
 import sel from '../mlh/selectors'
 import exp from '../mlh/expected'
 import {name, gender, age} from '../mlh/data'
-import {inputValues4} from '../mlh/metods'
+
 describe('My Test Suite', function () {
 
     before("Open page", function () {
